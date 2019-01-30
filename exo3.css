@@ -1,0 +1,98 @@
+h1:before {
+    content:"beta";
+    position: absolute; 
+    top: 0; left: 4.5em;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    text-transform: uppercase;
+    font-size: 0.35em;
+    transform: rotate(10deg);
+    padding: 0.2em;
+
+}
+
+h1 {
+    position: relative;
+}
+
+blockquote {
+    position: relative; 
+}
+
+blockquote:after {
+    content:"„";
+    font-size: 8rem;
+    position: absolute;
+    bottom: 2.5rem;
+    line-height: 10px;
+    color: #cccc55;
+    z-index: -1;
+}
+
+blockquote:before {
+    content:"“";
+    font-size: 8rem;
+    position: absolute;
+    top:-3rem; left:-3.5rem;
+    color: #cccc55;
+}
+
+.square
+{
+    background: blue;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.tr {
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0px; right: 0px;
+}
+
+.tl {
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px; left: 0px;
+}
+
+.br {
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0px; right: 0px;
+}
+
+.bl {
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0px; left: 0px;
+}
+
+.mid {
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    transform: translateX(-50%) translateY(-50%);
+    top: 400px; left: 400px;
+}
+
+
+/*
+autres solutions
+
+margin: 50%; 
+margin-top: -50px;
+margin-lef: -50px;
+*/
